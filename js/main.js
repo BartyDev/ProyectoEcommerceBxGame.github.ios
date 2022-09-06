@@ -323,7 +323,7 @@ function container() {
         menu();
         break;
       } else if (conexion == 3) {
-        salir(true);
+        salir(false);
         break;
       } else {
         alert('☠️ Error! - ingresa otra opción');
